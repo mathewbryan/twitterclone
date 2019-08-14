@@ -1,26 +1,62 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class Trends extends React.Component {
+  render(){
+    return(
+      <div className="trendsContainer">
+      <h1 className="TrendsTitle"> Trends for you <img id="cog" src=""/></h1>
+      <div>
+        <TopTrend name="Mia" tweets=" 101K" hashtag="#somethingwitty" />
+        <TrendItem name="Tom Jones" tweets=" 101K" hashtag="#leaveyourhaton"/>
+        <TrendItem name="NHS England" tweets=" 99K" hashtag="#money4nurses"/>
+        <TrendItem name="Tim Cook" tweets=" 1.1M" hashtag="#flatearth"/>
+        <TopTrend name="Cat" tweets=" 35M" hashtag="#catsoftwitter" />
+        <a id="showMore"> Show More </a>
+        </div>
+      </div>
+
+    )
+  }
 }
 
-export default App;
+class TopTrend extends React.Component {
+  render(){
+    return(
+      <div className="topTrendingTweetContainer">
+        <div className="trendingTweetContent">  
+        <h3>Trending United Kingdom</h3>        
+        {this.props.name} Tweeted <br/>
+        {this.props.hashtag} <br/>
+        {this.props.tweets} Tweets
+        </div>
+      </div>
+
+    )
+  }
+}
+
+
+
+
+class TrendItem extends React.Component {
+  render(){
+    return(
+      <div className="trendItemContainer">
+        <div className="">    
+        <h3>Trending United Kingdom</h3>      
+        {this.props.name} Tweeted<br/> 
+        {this.props.hashtag}
+        <br/>
+        {this.props.tweets} Tweets
+        </div>
+      </div>
+    )
+  }
+}
+
+
+
+
+export default Trends;
