@@ -11,7 +11,13 @@ h1.TrendsTitle {
 h3 {
   color: grey;
   opacity: .6;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
+  margin-top: .5%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom:1%;
 }
 
 a#showMore {
@@ -21,22 +27,21 @@ a#showMore {
 
 .trendsContainer {
   height: 90vh;
-  width: 25vw;
+  width: 27vw;
   /* border: 2px solid rgba(165, 165, 165, 0.6); */
   border-radius: 10px;
   background: rgb(183, 231, 252, .3);
   padding-left: 1vw;
   margin-top: 1.5vh;
+  float: right;
 }
 
 .topTrendingTweetContainer {
   height: 15vh;
-  width: 23vw;
+  width: 26vw;
   border: 2px solid rgba(165, 165, 165, 0.4);
   border-radius: 30px;
   margin-bottom: 10px;
-  
-
 }
 
 .trendingTweetContent {
@@ -46,7 +51,7 @@ a#showMore {
 
 .trendItemContainer {
   height: 12vh;
-  width: 23vw;
+  width: 26vw;
   border-bottom: 1px solid rgba(165, 165, 165, 0.4);
   margin-bottom: 1vh;
 }
