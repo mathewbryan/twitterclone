@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './nav.css';
 import Logo from './nevis.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDove} from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +17,7 @@ function App() {
     <div>
       <Mobile/> 
     </div>
-  );
+  )
 }
 
 class Mobile extends React.Component {
