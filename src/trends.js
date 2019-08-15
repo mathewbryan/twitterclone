@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './trends.css';
 import cat from './images/griefandloss.jpg';
 import cog from './images/cog.svg';
 import search from './images/search.svg';
