@@ -1,11 +1,47 @@
 h1.TrendsTitle {
-  padding-top: 15px;
+  padding-top: 1vh;
   color: rgb(71, 71, 71);
   border-bottom: 1px solid rgba(165, 165, 165, 0.4);
 
 }
 #cog {
   color: blue;
+}
+
+.searchBox {
+  margin-top: 4vh;
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 5vh;
+  width: 27vw;
+  float: right;
+  background: rgb(183, 231, 252, .5);
+}
+h1 {
+  color: gray;
+  opacity: .6;
+}
+
+
+h2#searchTitle {
+  margin-top: 1.5%;
+  margin-left: 2%;
+  color: rgb(71, 71, 71);
+}
+
+#searchIcon {
+  position: absolute;
+  left:98%;
+  top: 6%;
+}
+
+#searchfield {
+  opacity: 0.2;
+  radius: 10px;
+  height: 5vh;
+  width: 25vw;
+  font-size: 16pt;
+  padding-left: 2%;
 }
 
 h3 {
@@ -15,18 +51,36 @@ h3 {
   margin-top: .5%;
 }
 
+#cog {
+  position: absolute;
+  top: 19%;
+  left: 98%;
+}
+
 p {
   margin-top: 0;
   margin-bottom:1%;
+  font-size: 10pt;
 }
 
 a#showMore {
   color:rgb(29, 161, 242);
   font-size: 16pt;
 }
+#trendImage{
+  height: 15vh;
+  width: 9vw;
+  position: relative;
+  left: 16vw;
+  bottom: 12.5vh;
+  opacity: .8;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  
+}
 
 .trendsContainer {
-  height: 90vh;
+  height: 97vh;
   width: 27vw;
   /* border: 2px solid rgba(165, 165, 165, 0.6); */
   border-radius: 10px;
@@ -47,11 +101,33 @@ a#showMore {
 .trendingTweetContent {
   padding-left: 1vw;
   padding-top: 1vh;
+  height:16vh;
+  width: 27vw;
+
 }
 
 .trendItemContainer {
-  height: 12vh;
+  height: 13vh;
   width: 26vw;
   border-bottom: 1px solid rgba(165, 165, 165, 0.4);
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
 }
+
+.whotofollow {
+  margin-top: 15%;
+  height: 300px;
+  width: 27vw;
+  /* border: 2px solid rgba(165, 165, 165, 0.6); */
+  border-radius: 10px;
+  background: rgb(183, 231, 252, .3);
+  
+}
+
+#followButton {
+  float: right;
+  opacity: .6;
+  color:rgb(29, 161, 242);
+  border: rgb(29, 161, 242);
+  margin-right: 10%;
+}
+
