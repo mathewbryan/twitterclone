@@ -28,14 +28,13 @@ img {
   
 }
 
-.dove {
+.twitter {
   color: #00aced;
 }
 .home {
   color: #00aced;
 }
 .text {
-  margin-top: 57px; 
   margin-left: 15px; 
 }
 p {
@@ -51,7 +50,7 @@ li {
   font-weight: 600;
 }
 ul {
-  padding-top: 5px; 
+  padding-top: 60px; 
   padding-left: 10px; 
 }
 button {

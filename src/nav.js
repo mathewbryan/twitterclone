@@ -2,14 +2,14 @@ import React from 'react';
 import './nav.css';
 import Logo from './nevis.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faDove} from '@fortawesome/free-solid-svg-icons'
+import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faSearch} from '@fortawesome/free-solid-svg-icons'
-import {faBell} from '@fortawesome/free-solid-svg-icons'
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faBookmark} from '@fortawesome/free-solid-svg-icons'
+import {faBell} from '@fortawesome/free-regular-svg-icons'
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons'
+import {faBookmark} from '@fortawesome/free-regular-svg-icons'
 import {faHome} from '@fortawesome/free-solid-svg-icons'
-import {faFileAlt} from '@fortawesome/free-solid-svg-icons'
-import {faCommentDots} from '@fortawesome/free-solid-svg-icons'
+import {faFileAlt} from '@fortawesome/free-regular-svg-icons'
+import {faCommentDots} from '@fortawesome/free-regular-svg-icons'
 import {faFeatherAlt} from '@fortawesome/free-solid-svg-icons'
 
 function App() {
@@ -26,7 +26,7 @@ class Mobile extends React.Component {
     <div className="container">
 
     <div className="nav">
-      <p> <FontAwesomeIcon className="dove" icon={faDove}/></p>
+      <p> <FontAwesomeIcon className="twitter" icon={faTwitter}/></p>
      <p><FontAwesomeIcon className="home" icon={faHome}/></p>
       <p> <FontAwesomeIcon className="search" icon={faSearch}/> </p>
       <p> <FontAwesomeIcon className="bell" icon={faBell}/> </p>
