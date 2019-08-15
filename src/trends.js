@@ -94,9 +94,9 @@ class Follow extends React.Component{
     return(
       <div className="whotofollow">
         <h1> Who to follow </h1>
-        <PeopletoFollow followImage="" name="Marty" />
-        <PeopletoFollow name="Biff" />
-        <PeopletoFollow name="Jenny" />
+        <PeopletoFollow followImage={cat} name="Marty" />
+        <PeopletoFollow followImage={cat} name="Biff" />
+        <PeopletoFollow followImage={cat} name="Jenny" />
       </div>
     )
   }
@@ -105,6 +105,7 @@ class Follow extends React.Component{
 const PeopletoFollow = (props) => {
   return(
     <div className="PeopletoFollow">
+    <img id="followImage" src={props.followImage} />
     {props.name}
     <button id="followButton"> Follow </button>
     </div>

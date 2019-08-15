@@ -134,4 +134,8 @@ a#showMore {
   border: rgb(29, 161, 242);
   margin-right: 10%;
 }
-
+#followImage {
+  height: 20%;
+  width:15%;
+  border-radius: 50%;
+}
