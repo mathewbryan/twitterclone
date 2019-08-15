@@ -10,7 +10,7 @@ import { faUpload } from '@fortawesome/free-solid-svg-icons'
 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'//
 //import {falfa-comment} from '@fortawesome/free-solid-svg-icons'//
-import './App.css';
+import './tweet.css';
 
 /*class App extends React.Component {
   render (){
