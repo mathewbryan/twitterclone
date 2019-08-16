@@ -1,87 +1,99 @@
-.container {
-  padding-top: 20px; 
-  display: flex; 
+.screen{
+  display: flex;
 }
-.nav
-{
-  height: 100vh; 
-  margin-left: 40px; 
-  display: flex; 
+
+.nav-zone{
+  width: 25vw;
+  height: 100vh;
+}
+
+.middle{
+  width: 50vw;
+  height: 100vh;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.trends{
+  width: 20vw;
+  height: 100vh;
+}
+
+.wrapper{
+  display: flex;
   flex-direction: column;
 }
 
-.text {
-  display: inline;
-  flex-direction: row;
+.icons{
+  font-size: 25px;
+  border: none;
+  color: dodgerblue;
+}
+.plus{
+  font-size: 40px;
 }
 
-.feather {
-  border: 1px solid #00aced;
-  background-color: #00aced; 
-  border-radius: 50px; 
-  padding: 10px; 
-  font-size: 15px; 
-  color: white;
-}
-img {
-  width: 35px;
-  height: 35px; 
-  border-radius: 25px;
-  
+.home{
+  border-bottom: 1px solid lightgrey;
 }
 
-.dove {
-  color: #00aced;
+h4{
+  margin-left: 10px;
+  color: black;
 }
-.home {
-  color: #00aced;
+
+.tweetInput{
+  width: 100%;
+  height: 60px;
+  outline: none;
+  resize: none;
+  border: none;
+  font-size: 15px;
 }
-.text {
-  margin-top: 57px; 
-  margin-left: 15px; 
+.tweetBar{
+  width: 100%;
+  display: flex;
 }
-p {
-  text-align: center;
-  margin-top: 10px; 
-  width: 40px;
-  font-size: 25px;  
+
+.left-icons{
+  padding-left: 35px;
+  width: 50%;
+  display: flex;
 }
-li {
-  margin-bottom: 48px;
-  margin-left: 0;
-  list-style: none;
-  font-weight: 600;
+
+.tweetArea{
+  display: flex;
 }
-ul {
-  padding-top: 5px; 
-  padding-left: 10px; 
+
+.right-icons{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
-button {
-  background-color: #00aced; 
-  border-radius: 50px; 
-  color: white;
-  font-size: 14px;
-  font-weight: 700;
-  width: 175px;
+
+.tweetSubmit{
+  width: 90px;
   height: 40px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 20px;
 }
-.button{
-  padding-top: 15px; 
-  margin-left: -50px;
-}
-.more {
-  margin-bottom: 5px; 
-}
-@media all and (max-width: 700px) {
-  li {
-  display:none;
+
+@media all and (max-width: 800px) {
+  .tweetArea{
+    display: none;
   }
-  button {
-      display: none;
-  } 
-}
-@media all and (min-width: 700px) {
-  .feather2 {
-  display:none;
+  .tweetBar{
+    display: none;
+  }
+  .trends{
+    display: none;
+  }
+  .middle{
+    width: 90vw;
+  }
+  .nav-zone{
+    width: 10vw;
   }
 }

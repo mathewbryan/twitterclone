@@ -1,0 +1,146 @@
+h1.TrendsTitle {
+  color: rgb(71, 71, 71);
+  border-bottom: 1px solid rgba(165, 165, 165, 0.4);
+}
+#cog {
+  margin-right: 1vw;
+}
+
+.searchBox {
+  margin-top: 4vh;
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 5vh;
+  width: 23vw;
+  background: rgb(183, 231, 252, .5);
+}
+h1 {
+  color: gray;
+  opacity: .6;
+  font-size: 20pt;
+}
+
+
+h2#searchTitle {
+  margin-top: 1.5%;
+  margin-left: 2%;
+  color: rgb(71, 71, 71);
+}
+
+#searchIcon {
+  position: absolute;
+  left:96%;
+  top: 6%;
+}
+
+#searchfield {
+  opacity: 0.2;
+  border: none;
+  border-radius: 20px;
+  height: 5vh;
+  width: 23vw;
+  font-size: 16pt;
+  padding-left: 2%;
+  outline: none;
+}
+
+h3 {
+  width: 15vw;
+  color: grey;
+  opacity: .6;
+  margin-bottom: 4%;
+  margin-top: .5%;
+  font-size: 12pt;
+}
+
+#cog {
+
+}
+
+.p {
+  margin-top: 0;
+  margin-bottom:1%;
+  font-size: 10pt;
+}
+
+a#showMore {
+  color:rgb(29, 161, 242);
+  font-size: 16pt;
+}
+#trendImage{
+  height: 15vh;
+  width: 9vw;
+  /* margin-right: 5vw; */
+  opacity: .8;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+.trend-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.trend-padder{
+  width: 12vw;
+  padding-left: 1vw;
+  padding-top: 1vh;
+}
+
+.space{
+  justify-content: space-between;
+}
+
+.trendsContainer {
+  height: 97vh;
+  width: 23vw;
+  /* border: 2px solid rgba(165, 165, 165, 0.6); */
+  border-radius: 10px;
+  background: rgb(183, 231, 252, .3);
+  padding-left: 1vw;
+  margin-top: 1.5vh;
+  /* float: right; */
+}
+
+.topTrendingTweetContainer {
+  height: 15vh;
+  width: 22vw;
+  border: 2px solid rgba(165, 165, 165, 0.4);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.trendingTweetContent {
+  height:16vh;
+  width: 23vw;
+}
+
+.trendItemContainer {
+  height: 120px;
+  width: 20vw;
+  border-bottom: 1px solid rgba(165, 165, 165, 0.4);
+  margin-bottom: 2vh;
+}
+
+.whotofollow {
+  margin-top: 15%;
+  height: auto;
+  width: 23vw;
+  /* border: 2px solid rgba(165, 165, 165, 0.6); */
+  border-radius: 10px;
+  background: rgb(183, 231, 252, .3);
+  
+}
+
+
+#followButton {
+  float: right;
+  opacity: .6;
+  color:rgb(29, 161, 242);
+  border: rgb(29, 161, 242);
+  margin-right: 10%;
+}
+#followImage {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

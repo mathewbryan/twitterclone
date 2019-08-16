@@ -1,0 +1,83 @@
+.container {
+  padding-top: 20px; 
+  display: flex; 
+}
+.nav
+{
+  height: 100vh; 
+  margin-left: 2vw; 
+  display: flex; 
+  flex-direction: column;
+}
+.text {
+  display: inline;
+  flex-direction: row;
+}
+.feather {
+  border: 1px solid #00aced;
+  background-color: #00aced; 
+  border-radius: 50px; 
+  padding: 10px; 
+  font-size: 15px; 
+  color: white;
+}
+.profile {
+  width: 40px;
+  height: 40px; 
+  border-radius: 20px;
+}
+
+.twitter {
+  color: #00aced;
+}
+.home {
+  color: #00aced;
+}
+.text {
+  margin-left: 15px; 
+}
+.nav-icons {
+  text-align: center;
+  margin-top: 10px; 
+  width: 40px;
+  font-size: 25px;  
+}
+li {
+  margin-bottom: 48px;
+  margin-left: 0;
+  list-style: none;
+  font-weight: 500;
+}
+ul {
+  padding-top: 60px; 
+  padding-left: 10px; 
+}
+.button {
+  background-color: #00aced; 
+  border-radius: 50px; 
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+}
+.button-area{
+  padding-top: 15px; 
+  margin-left: -50px;
+}
+.more {
+  margin-bottom: 5px; 
+}
+@media all and (max-width: 800px) {
+  li {
+  display:none;
+  }
+  .button {
+      display: none;
+  } 
+}
+@media all and (min-width: 700px) {
+  .feather2 {
+  display:none;
+  }
+}

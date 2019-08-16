@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  background-color: rgb(183, 231, 252, .3)
+  
+}
+
+.components { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.profileimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 3vw;
+}
+
+#cardname {
+  font-weight: bold;
+  margin-left: 1vw;
+  margin-bottom: 0;
+}
+
+.cardcontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cardcontenttwo{
+  margin-top: 0.5vh;
+  margin-left: 1vw;
+}
+
+#cardcontentthree {
+    color: deepskyblue;
+}
+
+.gerrardpic {
+    margin-left: 8vw;
+}
+
+#slippic {
+  width: 40vw;
+  height: auto;
+  border-radius: 5%;
+}
+
+.feed-wrapper{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardcomment {
+  width: 100%; 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.mainicon {
+  padding-left: 5vw; 
+}
+.bbcpic{
+  margin-top: 1.5vw;
+}
+
+#at{
+  color: gray;
+}
+
+@media all and (max-width: 800px){
+  #slippic{
+    width: 80vw;
+  }
+}
