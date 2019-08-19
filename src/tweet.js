@@ -19,6 +19,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Tweets />
+        <Tweets />
+        <Tweets />
       </div>
     );
   }

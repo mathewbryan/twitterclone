@@ -1,5 +1,5 @@
 h1.TrendsTitle {
-  color: rgb(71, 71, 71);
+  color: black;
   border-bottom: 1px solid rgba(165, 165, 165, 0.4);
 }
 #cog {
@@ -15,7 +15,7 @@ h1.TrendsTitle {
   background: rgb(183, 231, 252, .5);
 }
 h1 {
-  color: gray;
+  color: black;
   opacity: .6;
   font-size: 20pt;
 }
@@ -46,7 +46,7 @@ h2#searchTitle {
 
 h3 {
   width: 15vw;
-  color: grey;
+  color: black;
   opacity: .6;
   margin-bottom: 4%;
   margin-top: .5%;
@@ -91,7 +91,7 @@ a#showMore {
 }
 
 .trendsContainer {
-  height: 97vh;
+  height: 100vh;
   width: 23vw;
   /* border: 2px solid rgba(165, 165, 165, 0.6); */
   border-radius: 10px;
@@ -131,16 +131,17 @@ a#showMore {
   
 }
 
-
 #followButton {
   float: right;
   opacity: .6;
   color:rgb(29, 161, 242);
   border: rgb(29, 161, 242);
   margin-right: 10%;
+  margin-top: 5%;
 }
 #followImage {
   height: 35px;
   width: 35px;
   border-radius: 50%;
 }
+

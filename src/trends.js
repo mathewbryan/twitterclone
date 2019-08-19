@@ -31,7 +31,7 @@ class Trends extends React.Component {
           <TrendItem name="Tom Jones" tweets=" 101K" hashtag="#leaveyourhaton" />
           <TopTrend name="Mia" tweets=" 101K" hashtag="#somethingwitty" trendimage={sky}  />
           <TrendItem name="NHS England" tweets=" 99K" hashtag="#money4nurses" />
-          <TrendItem name="Tim Cook" tweets=" 1.1M" hashtag="#flatearth" />
+          <TrendItem name="Chris Hadfield" tweets=" 1.1M" hashtag="#flatearth" />
           <TopTrend name="Cat" tweets=" 35M" hashtag="#catsoftwitter" trendimage={cat} />
           <a href="twitter.com" id="showMore"> Show More </a>
           <Follow />
@@ -112,7 +112,7 @@ const PeopletoFollow = (props) => {
   return(
     <div className="PeopletoFollow">
     <img alt="follow" id="followImage" src={props.followImage} />
-    {props.name}
+    {props.name} 
     <button id="followButton"> Follow </button>
     </div>
   )
