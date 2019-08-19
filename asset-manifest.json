@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/twitterclone/static/css/main.85e4a3ef.chunk.css",
+    "main.css": "/twitterclone/static/css/main.0ab73676.chunk.css",
     "main.js": "/twitterclone/static/js/main.7bb1893f.chunk.js",
     "main.js.map": "/twitterclone/static/js/main.7bb1893f.chunk.js.map",
     "runtime~main.js": "/twitterclone/static/js/runtime~main.03be0115.js",
@@ -8,9 +8,9 @@
     "static/js/2.a3e4b7d9.chunk.js": "/twitterclone/static/js/2.a3e4b7d9.chunk.js",
     "static/js/2.a3e4b7d9.chunk.js.map": "/twitterclone/static/js/2.a3e4b7d9.chunk.js.map",
     "index.html": "/twitterclone/index.html",
-    "precache-manifest.639879a323daaed786c3d685d5e1a60f.js": "/twitterclone/precache-manifest.639879a323daaed786c3d685d5e1a60f.js",
+    "precache-manifest.704c4ca4ce27e418c4d27557169dd10f.js": "/twitterclone/precache-manifest.704c4ca4ce27e418c4d27557169dd10f.js",
     "service-worker.js": "/twitterclone/service-worker.js",
-    "static/css/main.85e4a3ef.chunk.css.map": "/twitterclone/static/css/main.85e4a3ef.chunk.css.map",
+    "static/css/main.0ab73676.chunk.css.map": "/twitterclone/static/css/main.0ab73676.chunk.css.map",
     "static/media/bbctwitter.jpg": "/twitterclone/static/media/bbctwitter.8280ca4e.jpg",
     "static/media/cog.svg": "/twitterclone/static/media/cog.3e0b6dd2.svg",
     "static/media/gerrardslip.jpg": "/twitterclone/static/media/gerrardslip.548a4a96.jpg",
